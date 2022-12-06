@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navjeet fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg.jpg')
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 93px;
+
+
+    }
+
+    .left div {
+        text-align: center;
+        color: rgb(10, 233, 77);
+    }
+
+    .mid {
+        display: block;
+        /*  border: 2px solid green;*/
+        margin: 20px auto;
+        width: 43%;
+        top: 20px;
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid yellow;*/
+        width: 24%;
+        right: 34px;
+        top: 30px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        padding:  23px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(32, 30, 30);
+
+    }
+
+    .container {
+        /* border: 2px solid green;*/
+        /* margin: 106px 80px;*/
+        margin: auto;
+        padding: 300px;
+        width: 50%;
+        border-radius: 28px;
+    }
+
+    .formgroup input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display:block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        
+    }
+    .container h1 {
+        text-align: center;
+    
+       /* text-size: 2px;*/
+    
+        
+
+    }
+
+    .container button {
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/fitnesss.png" alt="">
+            <div>navjeet fitness</div>
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#" class="href">about us</a></li>
+                <li><a href="#" class="href">fitness calculator</a></li>
+                <li><a href="#" class="href">contact us</a></li>
+
+
+            </ul>
+
+
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1 style="color:chartreuse;"><span>join the best gym of aurangabad bihar now</span></h1>
+
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter your name">
+                <input type="text" name="" placeholder="enter your age">
+                <input type="text" name="" placeholder="enter your gender">
+                <input type="text" name="" placeholder="enter your locality">
+                <button class="btn">submit</button>
+
+
+
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
